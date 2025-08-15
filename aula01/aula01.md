@@ -1,5 +1,5 @@
-# Aprendendo C
-Repositório para aprender C e suas sintaxes: variáveis, especificadores de formato 
+# Aula 01
+Variáveis - Especificadores de formato - Pegando dados do usuário
 ## Especificadores de Formato
 Especificadores de formato dizem ao C como ler ou mostrar os dados de uma variável — usados principalmente em:
 
