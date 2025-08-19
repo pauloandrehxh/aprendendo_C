@@ -1,3 +1,46 @@
-.vscode
+# Arquivos gerados pela compilação
+# ---------------------------------
+# Ignora todos os arquivos objeto
+*.o
+
+# Ignora todos os executáveis (no Windows)
+*.exe
+
+# Ignora executáveis sem extensão (Linux/macOS). 
+# É uma boa prática listar o nome do seu executável final.
+programa_calculadora
+
+# Se você tiver bibliotecas estáticas ou dinâmicas geradas
+*.a
+*.so
+*.dll
+
+
+# Diretórios de build
+# ---------------------------------
+# Se você configurar seu build para gerar tudo em uma pasta 'build' ou 'bin'
+build
+bin
 output
-*exe
+
+
+# Arquivos de configuração de Editores/IDEs
+# ---------------------------------
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+
+# Outros editores
+*.swp
+*~
+
+
+# Arquivos de Sistema Operacional
+# ---------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
