@@ -6,14 +6,10 @@
 # Ignora todos os executáveis (no Windows)
 *.exe
 
-# Ignora executáveis sem extensão (Linux/macOS). 
-# É uma boa prática listar o nome do seu executável final.
-programa_calculadora
-
-# Se você tiver bibliotecas estáticas ou dinâmicas geradas
-*.a
-*.so
-*.dll
+# Ignora executáveis sem extensão (Linux/macOS)
+calculadora
+ponteiro
+struct
 
 
 # Diretórios de build
@@ -23,19 +19,10 @@ build
 bin
 output
 
-
 # Arquivos de configuração de Editores/IDEs
 # ---------------------------------
 # VS Code
 .vscode/
-
-# CLion / JetBrains
-.idea/
-
-# Outros editores
-*.swp
-*~
-
 
 # Arquivos de Sistema Operacional
 # ---------------------------------
